@@ -1,13 +1,31 @@
 {
-  "name": "FoxBot",
-  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "name": "bot",
   "version": "1.0.0",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
+  "description": "Discord Bot",
+  "main": "index.js",
+  "engines": {
+    "node": "9.4.0",
+    "npm": "5.6.0"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VioletFox/FoxBot3"
+  },
+  "FoxBot": [
+    "FoxBot",
+    "discord.js"
+  ],
+  "author": "VioletFox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VioletFox/FoxBot3"
+  },
+  "homepage": "https://github.com/VioletFox/FoxBot3",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.js": "^11.3.0"
   }
 }
